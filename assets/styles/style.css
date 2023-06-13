@@ -1,0 +1,150 @@
+body{
+    margin: 0px auto;
+    width: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+    padding-right: 20px;
+    color: #eeeeee ;
+    font-size: 23px;
+}
+nav ul{
+    float: right;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #606C5D;
+    position: fixed;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+section{
+    background-color: #eeeeee ;
+}
+.home{
+    background-color:#F7E6C4;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 40px;
+    color: #B31312 ;
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+
+.inner{
+    display:table-cell;
+    vertical-align: middle;
+}
+.home .inner img{
+    padding-top: 50px;
+}
+.about{
+    background-color: #73BBC9;
+    display: table;
+    height: 100vh;
+    width: 100%;
+    
+}
+.about .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width:60%;
+    float: left;
+    padding-top: 75px;
+    padding-left: 50px;
+}
+.about .inner h2{
+    font-size: 40px;
+    color:#080202;
+}
+.about .inner p{
+    font-size: 30px;
+    color: #B31312;
+    line-height: 50px;
+}
+.education{
+    background-color:#F2D8D8;
+    display: table;
+    width: 100%;
+    height: 100vh;
+}
+.education .inner{
+    padding: 50px;
+}
+.education h2, .projects h2, .skills h2, .contact h2{
+    font-size: 40px;
+    color: #080202;
+}
+.education .inner div, .projects .inner div, .skills .inner div{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.education .inner div p, .skills .inner div ul li, .contact .inner div p{
+    font-size: 30px;
+    color: #7286D3;
+}
+.projects .inner ul li{
+    font-size: 30px;
+    color: #B31312;
+}
+.projects .inner ul p{
+    font-size: 25px;
+    color: #B31312;
+}
+.education .inner div img{
+    width: 120px;
+    height: auto;
+}
+.projects, .skills, .contact{
+    display: table;
+    width: 100%;
+    height: 100vh;
+}
+.projects .inner, .contact .inner{
+    padding: 50px;
+}
+.projects .inner h2{
+    font-size: 40px;
+}
+.skills{
+    background-color: #D7C0AE;
+}
+.skills .inner{
+    padding: 60px;
+}
+
+.skills .inner div ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+.contact .inner{
+    text-align: center;
+    background-color: #C8DBBE;
+}
+
+/* Responsive designing */
+@media (min-width:320px) and (max-width:767px){
+    .home .inner img{
+        padding-top: 75px;
+    }
+    .about .inner p{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .education .inner div, .hobbies .inner div, .skills .inner div, .contact .inner{
+        width: 100%;
+    }
+    
+}
